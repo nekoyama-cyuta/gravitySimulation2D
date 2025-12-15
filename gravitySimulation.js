@@ -423,9 +423,9 @@ function addPlanet() {
 }
 
 function init() {
-    for (let i = 0; i < 2; i++) { 
-        addPlanet();
-    }
+    // for (let i = 0; i < 2; i++) { 
+    //     addPlanet();
+    // }
 }
 
 function updateAndRender() {
@@ -457,4 +457,5 @@ function addPlanetCount(count) {
         addPlanet();
     }
 }
+
 

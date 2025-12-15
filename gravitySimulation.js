@@ -406,7 +406,7 @@ class Object {
 function addPlanet() {
     let x = Math.random() * canvas.width;
     let y = Math.random() * canvas.height;
-    let mass = (Math.random() ** 3) * 10000 + 100000; 
+    let mass = (Math.random() ** 3) * 10000; 
     newObjects.push(new Object(
         x, 
         y, 
@@ -457,3 +457,4 @@ function addPlanetCount(count) {
         addPlanet();
     }
 }
+
